@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPEDITION INDIA</title>
+    <link rel="stylesheet" type="text/css" href="expind.css">
+</head>
+<body>
+    
+    <header>
+          
+                <a href="user.html" target="_blank" ><b>LogIn</b></a>
+                <a href="signup.html" target="_blank" id="SignUp" ><b>SignUp</b></a>
+                <a href="book.html" target="_blank"  ><b>Book</b></a>
+                <a href="contact.html" target="_blank" ><b>Contact</b></a>
+        
+    </header>
+    <section>
+        
+        
+        <h2 id="text">Expedition India</h2>
+        <img src="plane.svg" id="plane">
+        <img src="taj.svg" id="taj">
+        <img src="mumbai.svg" id="mumbai">
+        <img src="gate.svg" id="gate">
+        <img src="char.svg" id="char">
+        <img src="auto.svg" id="auto">
+        <img src="grnd.svg" id="grnd" >
+        <img src="grnd1.svg" id="grnd1">
+        <img src="grnd2.svg" id="grnd2">
+        <img src="kutti.svg" id="kutti">
+        <img src="theng1.svg" id="theng1">
+        <img src="theng2.svg" id="theng2">
+        
+    </section>
+    <div id="sec" class="sec" >
+        
+        <p>Your all-time travel partner for every<br> desi destinations</p>
+        <a href="book.html" id="exp">Explore India</a>
+        <img src="mandala1.svg" id="mandala1">
+        <img src="mandala2.svg" id="mandala2">
+        
+    </div>
+    <script>
+        let plane=document.getElementById('plane');
+        let auto=document.getElementById('auto');
+        let taj=document.getElementById('taj');
+        let text=document.getElementById('text');
+        
+
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+            taj.style.marginTop=value*0.5+'px'; 
+            const scaleFactor = 1 - (value* 0.001);
+            taj.style.transform = `scale(${scaleFactor})`;  
+            text.style.transform=`scale(${scaleFactor})`; 
+        })
+
+    </script>
+
+   
+        
+</body>
+
+
+</html>

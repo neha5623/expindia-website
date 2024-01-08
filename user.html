@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User LogIn</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <form action="/submit-form" method="post">
+        <h1>User LogIn</h1>
+        <img src="dsgn.svg" id="dsgn">
+            <!-- Text input field -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required placeholder="Enter Username"><br><br>
+        
+            <!-- Password input field -->
+            <label for="password">Password   :</label>
+            <input type="password" id="password" name="password" required placeholder="Enter Password"><br><br>
+        
+            <!-- Submit button -->
+            <input type="submit" value="Log In" id="submit">
+            <input type="reset" value="Reset" id="reset">
+            <span id="signup">Don't have an account? <a href="signup.html">SignUp</a></span>
+    </form>
+</body>
+</html>

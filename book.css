@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;700&family=Yatra+One&display=swap');
+*
+{padding:0;
+    font-family: 'Poppins';
+}
+html{
+    background-image:url(kas.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+  background-position: center; 
+  background-attachment: fixed; 
+    height: ;
+}
+form{
+    background: rgba(255,255,255,0.75);
+    border-radius: 10px;
+    padding: 100px 100px;
+    position: absolute;
+    top:50px;
+    left: 110px;
+    
+}
+form label{
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: rgb(13, 10, 25);
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 0;
+}
+#dsgn{
+    position: absolute;
+    top: 113px;
+    height: 60px;
+    right: 141px;
+    
+}
+#fname, #lname,#mname,#organization,#E-mail,#phonenumber,#areacode,#dob,#title{
+    
+    border: none;
+    border-radius: 10px;
+    background: rgba(34, 104, 154, 0.637);
+    padding: 6px;
+    
+} 
+#submit{
+    border: none;
+    background: black;
+    font-size:15px;
+    position: absolute;
+    bottom:50px;
+    height: 45px;
+    right:300px;
+    color: rgba(242, 245, 239, 0.975);
+    padding: 5px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+        
+}
+#toggleDialog{
+    border: none;
+    background: black;
+    
+    position: absolute;
+    bottom:50px;
+    height: 45px;
+    right:340px;
+    
+    padding: 5px 22px;
+    
+        
+}
+#reset{
+    border: none;
+    background: black;
+    font-size:15px;
+    position: absolute;
+    bottom:50px;
+    height: 45px;
+    left:280px;
+    color: white;
+    padding: 5px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+        
+}
+
+  
+  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;700&family=Yatra+One&display=swap');
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family:'Poppins', sans-serif ;
+scroll-behavior: smooth;
+overflow: hidden;
+
+}
+#sec{
+    
+    padding: 250px;
+    background:rgb(68, 91, 223);
+    z-index: 2;
+    
+    width:100% ;
+    height:100vh ;
+    
+   
+    
+}
+
+
+.sec h1{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    z-index: 3;
+    
+
+}
+.sec p{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    z-index: 3;
+}
+#back{
+    color: rgb(12, 33, 75);
+    font-size: 1.5em;
+    position: absolute;
+    left: 615px;
+    bottom: 280px;
+    z-index: 3;
+    background: white;
+    border-radius: 25px;
+    padding: 6px 15px;
+    text-decoration: none;
+}
+
+div img#mandala2{
+    position: absolute;
+    left:-900px;
+    height:1600px;
+    bottom: 92px ;
+    animation: rotateAnimation 20s linear infinite; /* Apply animation to the image */
+}
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg); /* Initial rotation angle */
+    }
+    to {
+      transform: rotate(360deg); /* Final rotation angle (full circle) */
+    }
+  }
+
+    </style>
+</head>
+<body>
+   <div id="sec" class="sec">
+        <h1>Thank You!</h1><br>
+        <p>You'll receive confirmation shortly on E-mail</p>
+        <img src="mandala2.svg" id="mandala2">
+        <a href="expind.html" id="back">Go back to home page</a>
+    </div>
+</body>
+</html>

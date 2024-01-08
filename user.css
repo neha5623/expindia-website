@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;700&family=Yatra+One&display=swap');
+*
+{padding:0;
+    font-family: 'Poppins';
+}
+html{
+    background-image:url(taj.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  background-position: center; 
+  background-attachment: fixed; 
+   
+
+}
+form{
+    background: rgba(255,255,255,0.75);
+    border-radius: 10px;
+    padding: 150px 100px;
+    position: absolute;
+    top:75px;
+    left: 150px;
+    
+}
+form label{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: rgb(13, 10, 25);
+    padding: 10px;
+}
+h1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    top: 50px;
+    left: 35%;
+}
+#dsgn{
+    position: absolute;
+    top: 54px;
+    height: 60px;
+    right: 173px;
+    
+}
+
+#username, #password{
+    
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 171, 171, 0.75);
+    padding: 6px;
+    
+} 
+#submit{
+    border: none;
+    background: black;
+    font-size:15px;
+    position: absolute;
+    bottom:45px;
+    height: 45px;
+    right:150px;
+    color: rgba(242, 245, 239, 0.975);
+    padding: 5px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+        
+}
+#toggleDialog{
+    border: none;
+    background: black;
+    
+    position: absolute;
+    bottom:50px;
+    height: 45px;
+    right:340px;
+    
+    padding: 5px 22px;
+    
+        
+}
+#reset{
+    border: none;
+    background: black;
+    font-size:15px;
+    position: absolute;
+    bottom:45px;
+    height: 45px;
+    left:150px;
+    color: white;
+    padding: 5px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+        
+}
+#signup{
+    position: absolute;
+    bottom: 120px;
+    
+}

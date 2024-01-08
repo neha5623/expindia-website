@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;700&family=Yatra+One&display=swap');
+
+        *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif ;
+    scroll-behavior: smooth;
+    
+}
+body{
+    overflow-x: hidden;
+    background:radial-gradient(rgb(248, 244, 218),rgba(206, 133, 196, 0.975),rgb(35, 88, 148));
+}
+
+header{
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+    
+}
+#LogIn{
+    cursor: pointer;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration:none ; 
+    cursor: pointer;
+    text-align:right;
+    display: flex;
+    justify-content: right;
+    z-index: 2000;
+    
+    padding: 6px;    
+    
+}
+
+section{
+    position:relative ;
+    width:100% ;
+    height:100vh ;
+    padding:0 ;
+    background-repeat: no-repeat;
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom:0 ;
+    width:100% ;
+    height:100px ;
+    background: linear-gradient(to top,rgb(234, 72, 43),transparent);
+    z-index: 1000;
+}
+section img#sun{
+    position:absolute;
+    top: 2px;
+    left:705px ;
+    height:100px;
+    width: ;
+    z-index: -10;
+}
+section img#kili{
+    position:absolute;
+    top:-120px ;
+    height:40%;
+    z-index: 1;
+    left: 740px;
+    
+}
+section img#grnd{
+    height: 112%;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    z-index: 1;
+    
+}
+section img#grnd1{
+    height: 112%;
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    z-index: 0;
+    
+}
+section img#grnd2{
+    height: 112%;
+    position: absolute;
+    top: -130px;
+    left: 0px;
+    z-index: -1;
+
+    
+}
+section img#taj{
+    height: 45%;
+    position: absolute;
+    top:195px;
+    left: 29%;
+    z-index: 1;
+
+    
+}
+section img#gate{
+    height: 30%;
+    position: absolute;
+    top:252px;
+    left:20%;
+    z-index: 1;
+
+    
+}
+section img#mumbai{
+    height: 30%;
+    position: absolute;
+    top:270px;
+    right:14%;
+    z-index: 1;
+
+    
+}
+section img#char{
+    height:20%;
+    position: absolute;
+    top:330px;
+    right:5%;
+    z-index: -5;
+
+    
+}
+section img#theng1{
+    height: 60%;
+    position: absolute;
+    top:178px;
+    right:-100px;
+    z-index: 1;
+
+    
+}
+section img#theng2{
+    height: 35%;
+    position: absolute;
+    top:252px;
+   left:-20px;
+    z-index: 1;
+
+    
+}
+section img#auto{
+    height: 18%;
+    position: absolute;
+    top:435px;
+    left:10%;
+    z-index: 20;
+
+    
+}
+section img#kutti{
+    height: 35%;
+    position: absolute;
+    top:300px;
+right:10%;
+    z-index: 1;
+
+    
+}
+section img#plane{
+    height: 25%;
+    position: absolute;
+    top:90px;
+right:12%;
+    z-index: 1;
+
+    
+}
+
+#text{
+    
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    
+    font-size: 6vw;
+    white-space: nowrap;
+    letter-spacing: 0.001cm;
+    font-family:'Poppins';
+    position: absolute;
+    top:20px;
+    right:380px;
+    
+
+}
+#sec{
+    
+    padding: 250px;
+    background:rgb(234, 72, 43);
+    z-index: 2;
+    position:absolute ;
+    width:100% ;
+    height:100vh ;
+    top: 100%;
+   
+    
+}
+
+
+.sec p{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    z-index: 3;
+    border-bottom: 2px dashed white;
+    
+
+}
+.sec a{
+    background: white;
+    color: rgb(254, 7, 7);
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 6px 15px;
+    position: absolute;
+    right: 700px;
+    bottom: 250px;
+    
+}
+div img#mandala1{
+    position: absolute;
+    left:-252px;
+    height:500px;
+    bottom: 92px ;
+    animation: rotateAnimation 20s linear infinite; /* Apply animation to the image */
+}
+div img#mandala2{
+    position: absolute;
+    right:-252px;
+    height:500px;
+    bottom: 92px ;
+    animation: rotateAnimation 20s linear infinite; /* Apply animation to the image */
+}
+
+
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg); /* Initial rotation angle */
+    }
+    to {
+      transform: rotate(360deg); /* Final rotation angle (full circle) */
+    }
+  }
